@@ -1,5 +1,7 @@
 library ttf_parser;
 import 'dart:convert';
+import 'dart:typed_data' show Float64List;
+import 'dart:ui' show Path;
 
 part 'ttf_font.dart';
 part 'parsers/ttf_parser.dart';
@@ -18,4 +20,5 @@ part 'stream/stream_reader.dart';
 part 'stream/byte_array_stream_reader.dart';
 part 'utils/parser_exceptions.dart';
 part 'utils/glyph_bounding_box.dart';
+part 'utils/ttf_transform.dart';
 
